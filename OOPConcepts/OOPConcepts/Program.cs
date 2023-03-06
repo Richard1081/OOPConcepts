@@ -2,13 +2,26 @@
 
 using OOPConcepts;
 
-try
-{ 
-	Console.WriteLine(new Date(1874,11,14));
-	Console.WriteLine(new Date(2023,1,31));
-
-}
-catch (Exception error)
+Employee employee1 = new SalaryEmployee()
 {
-	Console.WriteLine($"Error: {error.Message}");
-}
+    Id = 1010,
+    FirstName = "Richard",
+    LastName = "Rodriguez",
+    BirthDate = new Date(1981,7,10),
+    HiringDate = new Date(2023,2,10),
+    Salary = 1080
+};
+Employee employee2 = new CommisionEmployee()
+{
+    Id = 2020,
+    FirstName = "Anicacia",
+    LastName = "Cuello",
+    BirthDate = new Date(1958,12,15),
+    HiringDate = new Date(2020,5,14),
+    IsActive = true,
+    CommisionPercentaje = 0.23f,
+    Sales = 150
+};
+
+Console.WriteLine(employee1);
+Console.WriteLine(employee2);
