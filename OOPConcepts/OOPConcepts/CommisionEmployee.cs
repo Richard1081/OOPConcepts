@@ -21,7 +21,7 @@ namespace OOPConcepts
             return $"{base.ToString()}\n\t"+
                    $"Commision percentaje: {CommisionPercentaje:P2}\n\t"+
                    $"Sales...............: {Sales:C2}\n\t"+
-                   $"Value to pay........: {GetValueToPay():C2}";
+                   $"Value to pay........: {GetValueToPay():C2}\n\t";
         }
     }
 }

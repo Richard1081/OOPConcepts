@@ -28,5 +28,19 @@
       <FileName>SalaryEmployee.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="OOPConcepts.HourlyEmployee">
+    <Position X="5.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAEAAAAAAAAAAABAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>HourlyEmployee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPConcepts.BaseCommisionEmployee">
+    <Position X="8" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAIAAAAAAAAQAA=</HashCode>
+      <FileName>BaseCommisionEmployee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
